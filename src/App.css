@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: beige;
 }
 
 .logo {
@@ -36,7 +37,20 @@
 .card {
   padding: 2em;
 }
+button {
+  margin: 10px;
+}
 
 .read-the-docs {
   color: #888;
+}
+
+.column {
+  display: inline-block;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
 }
