@@ -25,8 +25,7 @@ function App(props) {
     // get the ranks of P1 and P2 cards and compare
 
     if (newCurrCards[0].rank > newCurrCards[1].rank) {
-      const newP1Score = p1RoundsWon + 1;
-      setp1RoundWon(newP1Score);
+      setp1RoundWon(p1RoundsWon + 1);
     }
     if (newCurrCards[0].rank < newCurrCards[1].rank) {
       const newP2Score = p2RoundsWon + 1;
